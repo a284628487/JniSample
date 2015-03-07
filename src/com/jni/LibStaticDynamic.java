@@ -1,0 +1,12 @@
+package com.jni;
+
+/**
+ * ∂ØÃ¨ø‚“¿¿µ±ÌÃ¨ø‚demo
+ */
+public class LibStaticDynamic {
+	static {
+		System.loadLibrary("dynamiclib");
+	}
+
+	public native int add(int x, int y);
+}

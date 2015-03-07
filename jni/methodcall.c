@@ -13,7 +13,7 @@ jint Java_com_jni_MethodCall1_jniCalljavaMethod(JNIEnv* env, jobject thiz)
 		return -1;
 	}
 	(*env)->CallStaticVoidMethod(env, cls, mid); //调用callback方法
-	fid = (*env)->GetStaticFieldID(env, cls, "value", "I"); //取出si字段
+	fid = (*env)->GetStaticFieldID(env, cls, "value", "I"); //取出value字段
 	if (fid == NULL) {
 		return -2;
 	}

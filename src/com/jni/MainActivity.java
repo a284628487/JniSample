@@ -41,6 +41,10 @@ public class MainActivity extends Activity {
 			DynamicRegisterMethod drm = new DynamicRegisterMethod();
 			Log.e(tag, drm.dynamicRegisterMethod());
 			break;
+		case R.id.dynamiclib_staticlib:
+			LibStaticDynamic libsd = new LibStaticDynamic();
+			Log.e(tag, "result:" + libsd.add(10, 2));
+			break;
 		}
 	}
 }

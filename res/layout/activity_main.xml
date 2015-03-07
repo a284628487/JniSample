@@ -47,4 +47,11 @@
         android:onClick="onClick"
         android:text="DynamicRegisterMethod" />
 
+    <Button
+        android:id="@+id/dynamiclib_staticlib"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="DynamicLib_StaticLib" />
+
 </LinearLayout>
