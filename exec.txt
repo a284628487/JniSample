@@ -1,0 +1,3 @@
+cd /Users/ccfyyn/Library/Android/sdk/ndk-bundle
+export NDK_PROJECT_PATH="/Users/ccfyyn/Documents/workspace/JNI_Bitmap"
+./ndk-build
